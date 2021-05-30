@@ -59,7 +59,8 @@ div {
 }
 a,
 button.submit {
-  color: #40759b;
+  color: #42575e;
+/* color: #40759b replace*/
   text-decoration: none;
   -webkit-transition: all 0.1s ease-in;
   -moz-transition: all 0.1s ease-in;
@@ -87,7 +88,8 @@ blockquote,
   box-sizing: border-box;
   margin: 1.5em 0 1.5em 1em;
   padding: 10px;
-  color: #aaa;
+/* color: #aaa replace*/
+  color: #3b4d54;
   border: 1px solid #e6e6e6;
   border-left: 5px solid #40759b;
 }
@@ -202,10 +204,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 14px;
-  color: #999;
+/* color: #999 replace*/
+  color: #dbdbdb;
   width: 100%;
   height: 100%;
-  background: #010302 url("../img/bg-dark.jpg") no-repeat top center;
+/* background: #010302 url(../img/bg-dark.jpg) no-repeat top center replace*/
+  background-image: linear-gradient(to bottom right, #43a8e4, rgba(81,164,72,0.878));
 }
 .layout-g {
   letter-spacing: -0.31em;
@@ -312,15 +316,18 @@ body {
   border: 1px solid #adc2d7;
 }
 #sidebar .widget a {
-  color: #999;
+/* color: #999 replace*/
+  color: #42575e;
 }
 #sidebar .widget a:hover {
-  color: #40759b;
+/* color: #40759b 99b296 replace*/
+  color: #151c1e;
   text-decoration: underline;
 }
 #sidebar .widget .widget-title,
 #sidebar .widget .comments-title {
-  color: #40759b;
+/* color: #40759b replace*/
+  color: #284a62;
   line-height: 2.7;
   margin-top: 0;
   font-size: 16px;
@@ -351,7 +358,8 @@ body {
 }
 #sidebar .widget .category-list-count {
   padding-left: 5px;
-  color: #40759b;
+/* color: #40759b replace*/
+  color: #335c79;
 }
 #sidebar .widget .category-list-count:before {
   content: "(";
@@ -392,8 +400,9 @@ body {
   line-height: 16px;
   width: 100%;
   border-radius: 15px;
-  color: #fff;
-  background: rgba(0,0,0,0.8);
+  color: #3f4a4d;
+/*background: rgba(0,0,0,.8) replace*/
+  background: #daddda;
   -webkit-box-shadow: 0 0 20px #adc2d7 inset;
   box-shadow: 0 0 20px #adc2d7 inset;
   border: 1px solid #adc2d7;
@@ -406,7 +415,8 @@ body {
   box-sizing: content-box;
   padding: 20px;
   background: rgba(0,0,0,0.9);
-  color: #999;
+/* color: #999 replace*/
+  color: #dbdbdb;
   border-radius: 4px;
   -webkit-box-shadow: 0 0 20px #adc2d7 inset;
   box-shadow: 0 0 20px #adc2d7 inset;
@@ -503,7 +513,8 @@ body {
 }
 .post .post-title {
   margin: 0;
-  color: #40759b;
+/* color: #40759b bfc0c1 replace */
+  color: #ccd7e1;
   text-align: left;
   border-bottom: 1px solid #d8e2eb;
   padding-bottom: 10px;
@@ -512,15 +523,19 @@ body {
   line-height: 1.1;
 }
 .post .post-title a {
-  color: #40759b;
+/* color: #40759b replace */
+  color: #ccd7e1;
 }
 .post .post-title a:hover {
+/*color: #40759b replace*/
+  color: #e6e6e6;
   text-decoration: underline;
 }
 .post .post-meta {
   padding: 0;
   margin: 10px 0 0;
-  color: #999;
+/*color: #999 replace*/
+  color: #42575e;
   font-size: 14px;
   line-height: 24px;
   min-height: 24px;
@@ -544,11 +559,13 @@ body {
   content: ' ';
 }
 .post .post-meta a {
-  color: #40759b;
+/*color: #40759b replace*/
+  color: #42575e;
 }
 .post .post-meta a:hover {
-  color: #40759b;
-  border-bottom: 1px solid #40759b;
+/*color: #40759b replace*/
+  color: #151c1e;
+  border-bottom: 1px solid #151c1e;
 }
 .post .post-meta .category:before {
   font-family: "iconfont" !important;
@@ -592,7 +609,8 @@ body {
   clear: left;
   font-size: 15px;
   line-height: 1.77;
-  color: #aaa;
+/* color: #aaa #1e2426 replace */
+  color: #3f4a4d;
   padding-top: 15px;
   text-align: justify;
   text-justify: distribute;
@@ -620,17 +638,21 @@ body {
   margin: 0 5px;
   padding: 0 5px;
   font-family: Source Code Pro, Monaco, Menlo, Consolas, monospace;
-  color: #adc2d7;
-  background: #050f1b;
+/* color: #adc2d7 replace */
+  color: #c6def6;
+/* background: #050f1b replace */
+  background: rgba(59,92,125,0.671);
   font-size: 0.95em;
   word-break: break-all;
 }
 .post .post-content p a {
-  color: #40759b;
+/*color: #40759b replace*/
+  color: #315b79;
   padding-bottom: 2px;
   word-break: break-all;
 }
 .post .post-content p a:hover {
+  color: #203a4d;
   text-decoration: underline;
 }
 .post .post-content p .caption {
@@ -668,19 +690,23 @@ body {
   margin: 0 5px;
   padding: 0 5px;
   font-family: Source Code Pro, Monaco, Menlo, Consolas, monospace;
-  color: #adc2d7;
-  background: #050f1b;
+/* color: #adc2d7 replace */
+  color: #c6def6;
+/* background: #050f1b 4a6e83 replace */
+  background: #4a6e83;
   font-size: 0.95em;
   word-break: break-all;
 }
 .post .post-content ul a,
 .post .post-content ol a {
-  color: #40759b;
+  color: #42575e;
+/* color: #40759b replace*/
   padding-bottom: 2px;
   word-break: break-all;
 }
 .post .post-content ul a:hover,
 .post .post-content ol a:hover {
+  color: #80a4b0;
   text-decoration: underline;
 }
 .post .post-copyright blockquote {
@@ -770,10 +796,12 @@ body {
   position: relative;
 }
 .archive-wrap .listing li a {
-  color: #999;
+  color: #d9d5d5;
+/*color: #999 replace*/
 }
 .archive-wrap .listing li a:hover {
-  color: #5483b1;
+/*color: #5483B1 replace*/
+  color: #b8b8b8;
 }
 .archive-wrap .listing li a:before {
   content: '';
@@ -811,10 +839,10 @@ body {
   background: #5483b1;
 }
 .archive-wrap .listing li:hover .tite {
-  border-bottom: 1px solid #5483b1;
+  border-bottom: 1px solid #b8b8b8;
 }
 .archive-wrap .listing li:hover .tite:after {
-  background: #5483b1;
+  background: #b8b8b8;
 }
 .archive-wrap .listing li:hover .date {
   border: 1px solid #5483b1;
@@ -861,12 +889,14 @@ body {
 }
 #footer .footer-info {
   line-height: 2;
-  color: #999;
+/* color: #999 replace*/
+  color: #dbdbdb;
   text-align: center;
   font-size: 0.925em;
 }
 #footer .footer-info a {
-  color: #40759b;
+/* color: #40759b replace*/
+  color: #2f536e;
   margin: 0 6px;
 }
 #footer .footer-info span {
@@ -952,7 +982,8 @@ body {
 .label-title {
   margin-top: 1.1em;
   font-size: 22px;
-  color: #999;
+/* color: #999 replace*/
+  color: #dbdbdb;
   font-weight: bold;
 }
 .label-title .fa {
@@ -967,7 +998,8 @@ body {
 /* read more*/
 .readmore a {
   font-size: 14px;
-  color: #40759b;
+/* color: #40759b replace*/
+  color: #305d6c;
   margin: -20px 0 0;
   padding: 5px 10px;
   float: right;
@@ -977,8 +1009,9 @@ body {
   padding-left: 0.15em;
 }
 .readmore a:hover {
-  -webkit-box-shadow: 0 -1px 4px #5483b1 inset;
-  box-shadow: 0 -1px 4px #5483b1 inset;
+  color: #203d47;
+  -webkit-box-shadow: 0 -1px 4px #203d47 inset;
+  box-shadow: 0 -1px 4px #203d47 inset;
 }
 /* post navigator*/
 .post-nav {
@@ -994,7 +1027,8 @@ body {
   max-width: 49%;
   line-height: 25px;
   font-size: 15px;
-  color: #aaa;
+/* color: #aaa replace*/
+  color: #dbdbdb;
   border-bottom: none;
   position: relative;
   white-space: normal;

@@ -18,12 +18,14 @@ pre code {
   border-radius: 5px;
   box-shadow: 1px 1px 2px rgba(0,0,0,0.125);
   font-size: 13px;
-  color: #333;
+/* color: #999 replace*/
+  color: #c6def6;
   background: #f7f8f8;
 }
 figure.highlight,
 .codeblock {
-  background: #f7f8f8;
+/* background: #021825 replace */
+  background: #4a6e83;
   margin: 10px 0;
   line-height: 1.1em;
   padding-top: 15px;
@@ -36,7 +38,6 @@ figure.highlight figcaption,
   font-size: 13px;
   padding: 0 15px 20px;
   margin: 0;
-  background: #f7f8f8;
   color: #999;
 }
 figure.highlight figcaption a,
@@ -82,8 +83,7 @@ figure.highlight.plain .gutter,
 }
 figure.highlight .gutter,
 .codeblock .gutter {
-  background: #f7f8f8;
-  border-right: 1px solid #e6e6e6;
+  border-right: 1px solid #40759b;
   padding: 0.3em 15px;
 }
 figure.highlight .gutter .line,
@@ -93,7 +93,8 @@ figure.highlight .gutter .line,
 figure.highlight .line,
 .codeblock .line {
   font-size: 13px;
-  color: #333;
+/* color: #999 replace*/
+  color: #c6def6;
 }
 figure.highlight .line.marked,
 .codeblock .line.marked {
@@ -168,7 +169,8 @@ figure.highlight .code,
   color: #969896;
 }
 .highlight.bash .code .variable {
-  color: #333;
+/* color: #999 replace*/
+  color: #c6def6;
 }
 .highlight.coffeescript .code .subst,
 .highlight.coffeescript .code .regexp,
@@ -207,7 +209,8 @@ figure.highlight .code,
 }
 .highlight.cs .code .preprocessor,
 .highlight.cs .code .preprocessor .keyword {
-  color: #333;
+/* color: #999 replace*/
+  color: #c6def6;
 }
 .highlight.cs .code .xmlDocTag,
 .highlight.cs .code .doctag {
@@ -228,7 +231,8 @@ figure.highlight .code,
 }
 .highlight.css .code .attr_selector,
 .highlight.css .code .value {
-  color: #333;
+/* color: #999 replace*/
+  color: #c6def6;
 }
 .highlight.css .code .attribute,
 .highlight.css .code .hexcolor,
@@ -265,7 +269,8 @@ figure.highlight .code,
 }
 .highlight.ini .code .value,
 .highlight.ini .code .keyword {
-  color: #333;
+/* color: #999 replace*/
+  color: #c6def6;
 }
 .highlight.ini .code .setting,
 .highlight.ini .code .attr {
@@ -281,7 +286,8 @@ figure.highlight .code,
   color: #795da3;
 }
 .highlight.js .code .tag .title {
-  color: #333;
+/* color: #999 replace*/
+  color: #c6def6;
 }
 .highlight.js .code .regexp {
   color: #df5000;
@@ -322,7 +328,8 @@ figure.highlight .code,
   color: #795da3;
 }
 .highlight.mak .code .constant {
-  color: #333;
+/* color: #999 replace*/
+  color: #c6def6;
 }
 .highlight.mak .code .keyword,
 .highlight.mak .code .meta-keyword {
@@ -365,7 +372,8 @@ figure.highlight .code,
   color: #183691;
 }
 .highlight.nginx .code .variable {
-  color: #333;
+/* color: #999 replace*/
+  color: #c6def6;
 }
 .highlight.objectivec .code .title {
   color: #795da3;
@@ -435,7 +443,7 @@ figure.highlight .code,
   color: #a71d5d;
 }
 .highlight.xml .code .tag {
-  color: #333;
+  color: #999;
 }
 .highlight.xml .code .value {
   color: #183691;
@@ -508,7 +516,7 @@ figure.highlight .code,
   color: #795da3;
 }
 .highlight.sass .code .variable {
-  color: #333;
+  color: #999;
 }
 .highlight.stylus .code .tag,
 .highlight.stylus .code .selector-tag {
