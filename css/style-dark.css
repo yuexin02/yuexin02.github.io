@@ -514,7 +514,7 @@ body {
 .post .post-title {
   margin: 0;
 /* color: #40759b bfc0c1 replace */
-  color: #ccd7e1;
+  color: #cff6f6;
   text-align: left;
   border-bottom: 1px solid #d8e2eb;
   padding-bottom: 10px;
@@ -524,7 +524,7 @@ body {
 }
 .post .post-title a {
 /* color: #40759b replace */
-  color: #ccd7e1;
+  color: #cff6f6;
 }
 .post .post-title a:hover {
 /*color: #40759b replace*/
@@ -610,7 +610,7 @@ body {
   font-size: 15px;
   line-height: 1.77;
 /* color: #aaa #1e2426 replace */
-  color: #3f4a4d;
+  color: #091818;
   padding-top: 15px;
   text-align: justify;
   text-justify: distribute;
